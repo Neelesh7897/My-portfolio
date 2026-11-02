@@ -14,7 +14,7 @@ export const PROFILE = {
   profileImage: "https://i.postimg.cc/3NcW3vSh/Neelesh.png",
   emailPlaceholder: "singhnileshdev@gmail.com",
   links: {
-    resume: "", // Paste your resume URL or public/ file path here.
+    resume: "/NileshResume.pdf",
     github: "https://github.com/Neelesh7897",
     linkedin:
       "https://www.linkedin.com/in/nilesh-singh-7897?utm_source=share_via&utm_content=profile&utm_medium=member_android",

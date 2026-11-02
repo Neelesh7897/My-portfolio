@@ -17,7 +17,8 @@ Edit [`src/config.js`](./src/config.js). No component changes are needed for rou
 
 - **Profile image:** paste a direct image URL into `PROFILE.profileImage`.
 - **Project images:** paste a URL into the matching project's `image` field. Leave it empty to keep the built-in artwork.
-- **Resume and social links:** paste URLs into `PROFILE.links.resume`, `github`, `linkedin`, or `instagram`.
+- **Resume:** replace `public/NileshResume.pdf` and keep `PROFILE.links.resume` in `src/config.js` pointed at `/NileshResume.pdf`.
+- **Social links:** paste URLs into `PROFILE.links.github`, `linkedin`, or `instagram`.
 - **Email:** set `PROFILE.links.email` to an email address. The contact form opens a message in the visitor's default email app.
 - **Projects, skills, stats, and other text:** update the matching arrays and fields in `PROFILE`. Stats count up and down as you scroll; change each `stats[].value` to update its target.
 
